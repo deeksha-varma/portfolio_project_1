@@ -110,3 +110,47 @@ header h2 {
 	font-size: 4em;
 	font-family: 'Lily Script One', Arial, sans-serif;
 }
+
+/* Hero button */
+
+.hero-btn {
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 500;
+	background-color: #6a53b8;
+	color: white;
+	border-radius: 10px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 0.6em 1em;
+	transition: all 0.5s;
+  	cursor: pointer;
+	display: block;
+	margin-top: 0.5em;
+}
+
+.hero-btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+
+.hero-btn span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .hero-btn:hover span {
+	padding-right: 25px;
+  }
+  
+  .hero-btn:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
