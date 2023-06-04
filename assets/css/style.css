@@ -98,3 +98,15 @@ header h2 {
 	align-items: center;
 	padding-left: 50%;
 }
+
+.hero-text  h3 {
+	color: #292929;
+	font-size: 3em;
+	letter-spacing: 2px;
+}
+
+.hero-text h1 {
+	color: #292929;
+	font-size: 4em;
+	font-family: 'Lily Script One', Arial, sans-serif;
+}
