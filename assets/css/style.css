@@ -36,3 +36,26 @@ header h2 {
 	letter-spacing: 2px;
 	margin-right: auto;
 }
+
+.nav-menu {
+	display: flex;
+}
+
+.nav-menu a {
+	padding: 10px 20px;
+	color: #292929;
+	text-transform: capitalize;
+	transition: all 0.42s ease;
+}
+
+.nav-menu a:hover {
+	color: purple;
+}
+
+#menu-icon {
+	font-size: 35px;
+	color: #292929;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
