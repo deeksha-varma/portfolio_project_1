@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Leckerli+One&family=Lily+Script+One&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Roboto+Slab&display=swap');
 
 * {
 	margin: 0;
@@ -38,6 +38,7 @@ header h2 {
 /* navigation links */
 
 .nav-menu {
+	font-size: 110%;
 	display: flex;
 }
 
@@ -146,11 +147,11 @@ header h2 {
 	transition: 0.5s;
   }
   
-  .hero-btn:hover span {
+.hero-btn:hover span {
 	padding-right: 25px;
   }
   
-  .hero-btn:hover span:after {
+.hero-btn:hover span:after {
 	opacity: 1;
 	right: 0;
   }
