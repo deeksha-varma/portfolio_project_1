@@ -2,11 +2,36 @@
 (Developer: Deeksha Varma)
 
 ## Table of Contents
-To do
+1. [Introduction](#introduction)
+2. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+3. [User Experience](#user-experience)
+    1.  [Strategy](#strategy)
+        * [Target Audience](#target-audience)
+        * [User Requirements & Expectations](#user-requirements-and-expectations)
+        * [User Stories](#user-stories)
+    2. [Scope](#scope)
+        * [Initial Stage](#intial-stage)
+        * [Future Additions](#future-additions)
+    3. [Structure](#structure)
+    4. [Skeleton](#skeleton)
+    5. [Surface](#surface)
+4. [Technologies Used](#technologies-used)
+    1. [Language](#languages)
+    2. [Frameworks & Tools](#frameworks--tools)
+5. [Testing and Validation](#testing-and-validation)
+    1. [HTML](#html-validation)
+    2. [CSS](#css-validation)
+    3. [Accessibility & Performance](#accessibility--performance)
+    4. [Browser Compatability](#browser-compatability)
+6. [Bugs](#bugs-fixes-and-outstanding-issues)
+7. [Deployment & Development](#deployment--development)
+8. [Credits](#credits)
 
 ## Introduction
-Welcome to <b>Oh Nuts! Donuts</b>, your ultimate destination for heavenly treats and unforgettable flavors! We are thrilled to bring you a delightful assortment of artisanal donuts that will tantalize your taste buds and leave you craving for more. 
-The goal of the website is to provide the user with a seamless and delightful online experience. 
+Welcome to <b>Oh Nuts! Donuts</b>, your ultimate destination for heavenly treats and unforgettable flavors! We are thrilled to bring you a delightful assortment of artisanal donuts that will tantalize your taste buds and leave you craving for more.
+The goal of the website is to provide the user with a seamless and delightful online experience.
 The target audience are -
 Donut Enthusiasts, Foodies and Culinary Adventurers, Families and Friends, Gift Shoppers and Event Planners. The Oh Nuts! Donuts website aims to cater to their needs, providing a delightful online platform to browse, customize, and order exceptional donuts with convenience and ease.
 
@@ -23,7 +48,7 @@ Donut Enthusiasts, Foodies and Culinary Adventurers, Families and Friends, Gift 
 ### Site Owner Goals
 * Increase online visibility and reach a wider audience.
 * Foster customer engagement and interaction with the brand.
-* Promote donut products
+* Promote donut products.
 * Increase sales and revenue for Oh Nuts! Donuts.
 * Enhance brand perception and reputation.
 * Provide customer support and address inquiries promptly.
@@ -31,12 +56,69 @@ Donut Enthusiasts, Foodies and Culinary Adventurers, Families and Friends, Gift 
 ## User Experience
 
 ### Strategy
+
 #### Target Audience
+- Donut Enthusiasts
+- Foodies and Culinary Adventurers
+- Families and Friends
+- Gift Shoppers and Event Planners
+- Kids
+
 #### User Requirements and Expectations
+- User-Friendly Design and Navigation
+- Simple intuitive design that allows the user to initiate action
+- Menu and Product Information - easy access to a comprehensive menu that showcases the variety of donuts
+- Links work as expected
+- Easy was to contact the business
+- Location and Contact Information
+- Social Media Integration
+- Visually appealing responsive design
+- Accessibility
+
 #### User Stories
 
+##### First-time User
+As a first time user, I want to ...
+1. ... easily navigate through the website and understand what are the treats being offered.
+2. ... find more information about the history of the business and their core values.
+3. ... expect a clear and intuitive navigation menu that allows me to explore the different categories of donuts.
+4. ... enticing visuals and explore the gallery page.
+5. ... find the contact information and location of the business.
+
+##### Returning Users
+As a returning user, I want to ...
+1. ... easily provide feedback or share my experience.
+2. ... find social media links to connect with the business.
+3. ... find directions to the location of the business.
+
+##### Site owner
+As the site owner, I want users to ...
+1. ... be able to explore the menu, place orders, and access information effortlessly, ensuring a positive and delightful browsing experience.
+2. ... be enticed by the mouthwatering visuals and descriptions leading them to place orders and indulge in the deliciousness of Oh Nuts! Donuts.
+2. ... provide feedback, share their experiences, and interact with the brand through social media integration fostering a loyal and engaged customer base.
+
 ### Scope
-What features do you want to include in the design?
+
+#### Intial Stage
+
+1. Website Design and Navigation:
+    The website should have a simple design with intuitive navigation, ensuring easy access to different sections and a seamless browsing experience.
+2. About section:
+    This section which will include information about the history of the business and it's core mission and values.
+3. Menu and Product Presentation:
+    The menu should be visually appealing, showcasing the variety of donuts and treats available, along with detailed descriptions and enticing images that capture the essence of each flavor.
+4. Location Information and Contact Details:
+    Users should easily find information about the physical locations of Oh Nuts! Donuts shops, including operating hours and contact details for inquiries or special requests.
+5. Social Media Integration:
+    The website should integrate with the company's social media accounts, allowing users to stay connected and informed about updates and events.
+
+#### Future Additions
+In future expansion the site could include
+- Promotions and Special Offers
+- Customer Reviews and Testimonials
+- Allergen Information and Dietary Considerations
+- Newsletters
+- Special offers and promotions
 
 ### Structure
 How the content of the website is structured.
@@ -55,12 +137,14 @@ Colors, images
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
 
 ### Frameworks & Tools
-- Git
-* [Github](https://github.com/) - Used to host and edit the website.
-- Balsamiq
-- Google Fonts
+- [Git](https://git-scm.com/) - Version Control System used to track the project development.
+- [Github](https://github.com/) - Used to host and edit the website.
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+- [Google Fonts](https://fonts.google.com/) - Used to open source font-families for use in CSS.
+- [Font Awesome](https://fontawesome.com/) - Used for adding icons to the website.
+- [Coolors](https://coolors.co/contrast-checker/7c8edb-000000) - Color contrast checker of text and background colors.
 
-## Texting and Validation
+## Testing and Validation
 
 ### HTML Validation
 - HTML
@@ -70,11 +154,13 @@ Colors, images
 - CSS
   - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Accessibility
+### Accessibility & Performance
+
+### Browser Compatability
 
 ## Bugs, Fixes and Outstanding issues
 
-## Deployment
+## Deployment & Development
 
 ### **To deploy the project**
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
