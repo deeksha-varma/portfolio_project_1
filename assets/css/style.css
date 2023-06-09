@@ -135,7 +135,7 @@ header h2 {
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-  }
+}
 
 .hero-btn span:after {
 	content: '\00bb';
@@ -144,13 +144,31 @@ header h2 {
 	top: 0;
 	right: -20px;
 	transition: 0.5s;
-  }
+}
 
 .hero-btn:hover span {
 	padding-right: 25px;
-  }
+}
 
 .hero-btn:hover span:after {
 	opacity: 1;
 	right: 0;
-  }
+}
+
+/* About Page */
+
+.about-main {
+	background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	display: block;
+    position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+}
+
+.about {
+	width: 90%;
+	position: static;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
