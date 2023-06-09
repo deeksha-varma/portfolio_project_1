@@ -222,3 +222,38 @@ header h2 {
 .about .about-container .about-image:hover img {
 	transform: scale(1.05);
 }
+
+.about .about-container .about-content {
+	flex: 1;
+	align-self: center;
+	box-sizing: border-box;
+}
+
+.about-content h2 {
+	font-size: 23px;
+	text-align: left;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	letter-spacing: 1.5px;
+}
+
+.about-content p {
+	font-size: 100%;
+	line-height: 1.8em;
+	letter-spacing: 0.15px;
+	text-align: justify;
+	margin: 20px;
+}
+
+.about-content .italicize-text {
+	font-style: italic;
+}
+
+.about-content .bold {
+	font-weight: 900;
+}
+
+.about-content .bottomline {
+	padding: 10px 0;
+}
