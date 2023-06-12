@@ -360,5 +360,36 @@ header h2 {
 .contactUs {
 	position: relative;
 	width: 100%;
-	padding: 40px 100px;
+	padding: 120px;
+}
+
+.contactUs .contact-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contactUs .contact-header h2 {
+	text-transform: capitalize;
+	font-size: 2em;
+	position: relative;
+	letter-spacing: 1.5px;
+	padding-bottom: 20px;
+}
+
+.contactUs .contact-header h2::before {
+	content: '';
+	position: absolute;
+	width: 60px;
+	height: 4px;
+	background-color: purple;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.contactUs .contact-header p {
+	padding: 20px;
+	font-size: 1.5em;
 }
