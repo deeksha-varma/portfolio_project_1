@@ -322,3 +322,17 @@ header h2 {
 .single-menu:hover img {
 	transform: scale(1.3);
 }
+
+.menu-content {
+	flex-direction: row;
+}
+
+.single-menu .menu-content h5 {
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 700;
+	border-bottom: 1px dashed #222;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
