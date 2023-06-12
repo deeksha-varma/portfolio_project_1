@@ -336,3 +336,10 @@ header h2 {
 	padding-bottom: 5px;
 	margin-bottom: 10px;
 }
+
+.single-menu .menu-content h5 span {
+	color: #d44780;
+	float: right;
+	font-weight: 700;
+	font-style: italic;
+}
