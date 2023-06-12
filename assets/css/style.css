@@ -343,3 +343,7 @@ header h2 {
 	font-weight: 700;
 	font-style: italic;
 }
+
+.single-menu .menu-content p {
+	text-align: left;
+}
