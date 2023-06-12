@@ -257,3 +257,11 @@ header h2 {
 .about-content .bottomline {
 	padding: 10px 0;
 }
+
+/* Menu Page */
+
+.menu-section {
+	background-color: #f2dfcf;
+	width: 100%;
+	height: auto;
+}
