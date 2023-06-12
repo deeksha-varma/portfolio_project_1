@@ -347,3 +347,18 @@ header h2 {
 .single-menu .menu-content p {
 	text-align: left;
 }
+
+/* Contact Us Page */
+
+.contact-bg {
+	background-color: #f2dfcf;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.contactUs {
+	position: relative;
+	width: 100%;
+	padding: 40px 100px;
+}
