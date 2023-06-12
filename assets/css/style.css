@@ -158,7 +158,7 @@ header h2 {
 /* About Page */
 
 .about-main {
-	background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	background-color: #f2dfcf;
 	display: block;
     position: absolute;
 	width: 100%;
