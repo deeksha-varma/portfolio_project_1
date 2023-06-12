@@ -286,3 +286,39 @@ header h2 {
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+.menus {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menu-column {
+	width: 30%;
+	margin: 30px auto;
+}
+
+.single-menu {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.single-menu img {
+	max-width: 200px;
+	min-height: 200px;
+	width: 100%;
+	height: 200px;
+	background-color: rgb(216, 209, 209);
+	object-fit: contain;
+	object-position: center;
+	border-radius: 100px;
+	border: 5px double #D6C1AF;
+	margin: 20px;
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+
+.single-menu:hover img {
+	transform: scale(1.3);
+}
