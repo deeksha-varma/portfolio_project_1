@@ -393,3 +393,32 @@ header h2 {
 	padding: 20px;
 	font-size: 1.5em;
 }
+
+.contact-box {
+	position: relative;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 5fr 4fr;
+	grid-template-areas:
+	"form info"
+	"form map";
+	grid-gap: 20px;
+}
+
+.contact {
+	padding: 40px;
+	background-color: antiquewhite;
+	margin-top: 20px;
+}
+
+.form {
+	grid-area: form;
+}
+
+.info {
+	grid-area: info;
+}
+
+.map {
+	grid-area: map;
+}
