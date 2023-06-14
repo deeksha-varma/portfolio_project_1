@@ -550,3 +550,14 @@ header h2 {
 .contact-social li a:hover {
 	color: #ac7f5d;
 }
+
+/* Contact Map */
+
+.map {
+	padding: 0;
+}
+
+.map iframe {
+	width: 100%;
+	height: 100%;
+}
