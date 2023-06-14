@@ -531,3 +531,22 @@ header h2 {
 	color: #222;
 	text-decoration: none;
 }
+
+.contact-social {
+	margin-top: 30px;
+	display: flex;
+}
+
+.contact-social li {
+	list-style-type: none;
+	margin-right: 15px;
+}
+
+.contact-social li a {
+	color: #5f2d07;
+	font-size: 1.8em;
+}
+
+.contact-social li a:hover {
+	color: #ac7f5d;
+}
