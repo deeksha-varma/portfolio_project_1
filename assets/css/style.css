@@ -491,3 +491,14 @@ header h2 {
 .inputBox ::placeholder {
 	color: grey;
 }
+
+/* Address info */
+
+.info {
+	background: #dfb492;
+}
+
+.info h3 {
+	color: #222;
+	padding-bottom: 10px;
+}
