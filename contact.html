@@ -38,9 +38,50 @@
                 <h2>Contact & Inquiry</h2>
                 <p>We'll get back to you shortly</p>
             </div>
-            <div class="contact-box">
+            <div class="contact-container">
                 <!-- form -->
-                <div class="contact form"></div>
+                <div class="contact form">
+                    <form action="#" method="POST">
+                        <div class="formBox">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <label for="fname">Name</label>
+                                    <input id="fname" class="input" type="text" name="first_name" placeholder="John" required />
+                                </div>
+                                <div class="inputBox">
+                                    <label for="email">Email Address</label>
+                                    <input id="email" class="input" type="email" name="email_address" placeholder="johndoe@email.com" required />
+                                </div>
+                                <div class="inputBox">
+                                    <label for="subject">How can we help?</label>
+                                    <select name="subject" id="subject" class="input" required>
+                                    <option value="" selected>
+                                        Please choose an option
+                                    </option>
+                                    <option value="question">General feedback</option>
+                                    <option value="question">I'd like to ask a question</option>
+                                    <option value="question">I wish to make a complaint</option>
+                                    </select>
+                                </div>
+                                <div class="inputBox">
+                                    <label for="phone_number">Phone Number</label>
+                                    <input id="phone_number" class="input" type="text" name="phone" placeholder="+49 176 1234 5678" required>
+                                </div>
+                                <div class="row100">
+                                    <div class="inputBox">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" class="msg-box" cols="50" rows="10" placeholder="Leave us a message..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="row100">
+                                    <div class="inputBox">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
                 <!-- address info -->
                 <div class="contact info"></div>
                 <!-- map -->
