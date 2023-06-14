@@ -65,7 +65,9 @@
                                 </div>
                                 <div class="inputBox">
                                     <label for="phone_number">Phone Number</label>
-                                    <input id="phone_number" class="input" type="text" name="phone" placeholder="+49 176 1234 5678" required />
+                                    <input type="tel" id="phone_number" name="tel"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}-[0-9]{4}" class="input"  placeholder="049 176 1234 5678" required />
+                                    <small>Format: 049 176 1234 5678</small>
                                 </div>
                                 <div class="row100">
                                     <div class="inputBox">
