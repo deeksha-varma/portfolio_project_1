@@ -502,3 +502,22 @@ header h2 {
 	color: #222;
 	padding-bottom: 10px;
 }
+
+.info .infoBox div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.info .infoBox div span {
+	min-width: 40px;
+	height: 40px;
+	color: #5f2d07;
+	background: #fcd6b6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3em;
+	border-radius: 50%;
+	margin-right: 15px;
+}
