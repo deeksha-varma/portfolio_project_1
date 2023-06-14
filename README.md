@@ -15,6 +15,7 @@
         * [Initial Stage](#intial-stage)
         * [Future Additions](#future-additions)
     3. [Structure](#structure)
+        * [Wireframes](#wireframes)
     4. [Skeleton](#skeleton)
     5. [Surface](#surface)
 4. [Technologies Used](#technologies-used)
@@ -121,8 +122,30 @@ In future expansion the site could include
 - Special offers and promotions
 
 ### Structure
-How the content of the website is structured.
-Wireframes
+
+#### Wireframes
+
+The structure of the initial site will include five pages:
+
+1. **Home Page** with navigation features in a header and footer, a hero section containing the hero title/caption with a button allowing the user to explore the menu.
+
+![Home](assets/images/Home.png)
+
+2. **About Page** giving a brief history of "where it all started" and the core mission of the business. This page will include the same header and footer as the main page.
+
+![About](assets/images/About.png)
+
+3. **Menu Page** providing a beautiful column layout of the different kinds of donuts served. Each item on the catalogue is depicted with a donut image and their corresponding names and descriptions. The images provide interactivity on hover.
+
+![Menu](assets/images/Menu.png)
+
+4. **Gallery Page** with a bunch of images that provides a visual appeal to the website.
+
+![Gallery](assets/images/Gallery.png)
+
+5. **Contact Page** that contains 3 sections - a form that includes name, email, phone number, dropdown to select the reason for writing. There will be a field for a text message as well. The next section on the top right will be a map view of the business. Bottom right section will contain information on the address and operating hours of the business.
+
+![Contact](assets/images/Contact.png)
 
 ### Skeleton
 How is it implemented. how will the user navigate it? Features.
