@@ -458,3 +458,20 @@ header h2 {
 	outline: none;
 	border: 1px solid #333;
 }
+
+.inputBox .select {
+	padding: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 1px solid #333;
+}
+
+.inputBox .msg-box {
+	padding: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 1px solid #333;
+	resize: none;
+	min-height: 220px;
+	margin-bottom: 10px;
+}
