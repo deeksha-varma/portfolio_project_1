@@ -166,6 +166,9 @@ Colors, images
 - [Google Fonts](https://fonts.google.com/) - Used to open source font-families for use in CSS.
 - [Font Awesome](https://fontawesome.com/) - Used for adding icons to the website.
 - [Coolors](https://coolors.co/contrast-checker/7c8edb-000000) - Color contrast checker of text and background colors.
+- [Image Color Picker](https://imagecolorpicker.com/) - useful to pick colors from images.
+- [I love Img](https://www.iloveimg.com/resize-image) - helps to resize images.
+- [Am I Responsive](https://ui.dev/amiresponsive) - mockup generator that checks for responsiveness across various device screen widths.
 
 ## Testing and Validation
 
