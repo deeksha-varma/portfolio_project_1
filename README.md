@@ -18,6 +18,8 @@
         * [Wireframes](#wireframes)
     4. [Skeleton](#skeleton)
     5. [Surface](#surface)
+        * [Color Scheme](#color-scheme)
+        * [Font](#font)
 4. [Technologies Used](#technologies-used)
     1. [Language](#languages)
     2. [Frameworks & Tools](#frameworks--tools)
@@ -155,7 +157,27 @@ The structure of the initial site will include five pages:
 How is it implemented. how will the user navigate it? Features.
 
 ### Surface
-Colors, images
+
+The design of the website focuses on depicting a _playful_ and _vibrant_ color theme.
+The visual image of donut with sprinkles is used as part of the logo branding.
+A background image of donut is used to grab visual attention of the user while also adding a touch of charm and playfulness to the design.
+Call-to-action button on the home page is used to establish a visual hierarchy to guide users' attention towards important elements such as the Menu page.
+A combination of playful and modern fonts that add personality to the design while ensuring readability were chosen.
+
+#### Color Scheme
+
+The color scheme chosen needs to evoke a sense of playfulness, warmth, and deliciousness. With this idea in mind, a combination of bright and vibrant colors were used to capture attention and reflect the fun and joyful nature of donut indulgence.
+The highlight on the homepage is the hero image. A neutral base, such as a light cream is paired with a pop of hot pink on the other pages. This approach allows the colorful elements, like illustrations or images, to stand out while maintaining an overall clean and modern look.
+
+![Color Scheme](documentation/colorscheme.png)
+
+#### Font
+
+'Lily Script One' is the font used for logo (the business name), text in the main body of the site and lowerlevel headings use 'Roboto Slab' font.
+
+1. **Roboto Slab** is a clean and modern serif font that provides excellent readability. It has a straightforward and professional appearance, making it suitable for body text and general content.
+
+2. **Lily Script One** is a handwritten script font with a playful and whimsical feel. Its flowing and casual letterforms add a touch of personality and creativity to logos, or decorative elements. Therefore aligning well with the delightful and handmade nature of Oh Nuts! Donuts.
 
 ## Technologies Used
 
