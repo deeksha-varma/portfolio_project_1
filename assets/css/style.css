@@ -590,3 +590,13 @@ header h2 {
 	max-width: 100%;
 	height: auto;
 }
+
+.thankyou-text {
+	padding: 50px;
+}
+
+.thankyou-text p {
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 30px;
+}
