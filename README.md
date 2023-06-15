@@ -147,6 +147,10 @@ The structure of the initial site will include five pages:
 
 ![Contact](assets/images/Contact.png)
 
+6. **Thank you Page** - a simple thank you page that displays thank you message to the user on contact form submission is also included.
+
+7. **404 Page** - a simple 404 Error page is also included.
+
 ### Skeleton
 How is it implemented. how will the user navigate it? Features.
 
