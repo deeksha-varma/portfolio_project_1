@@ -242,12 +242,44 @@ The method from cloning a project from GitHub is below:
 ### Content
 * The font came from [Google Fonts](https://fonts.google.com/)
 * The icons came from [Font Awesome](https://fontawesome.com/)
+* The markdown syntax used to write README doc were referenced from [Git Hub Doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* The donut names on the menu page were based out of creativity and for some Google was used as reference.
+* This README file was adapted from the projects - [Art School](https://github.com/URiem/art-school) and [Reflection](https://github.com/MikeR94/CI-Project-Portfolio-1)
+
 
 ### Media
-* The images came from [Pexels](https://www.pexels.com/)
+* Hero Image taken by [Towfiqu barbhuiya](https://www.pexels.com/@towfiqu-barbhuiya-3440682/) from [Pexels](https://www.pexels.com/photo/doughnut-with-sprinkles-on-pink-background-11484111/)
+* Donut logo icon were sourced from [Flaticon](https://www.flaticon.com/free-icon/donut_8813470?term=donut&page=1&position=18&origin=tag&related_id=8813470)
+* About page images were sourced from [Pexels](https://www.pexels.com/photo/pink-doughnut-on-white-textile-4686960/) and [Pixabay](https://pixabay.com/photos/doughnuts-desserts-pastries-treats-1868573/)
+* Menu page images were sourced from the following -
+    * [Banana Pudding](https://www.pexels.com/photo/donut-with-yellow-icing-and-chocolate-sprinkles-on-ceramic-plate-10305916/), by [filllvlad](https://www.pexels.com/@fillvlad/)
+    * [Chocolate Glam](https://www.pexels.com/photo/close-up-photo-of-donuts-2955820/), by [Nishant Aneja](https://www.pexels.com/@nishantaneja/)
+    * [Devil's Chocolate](https://www.pexels.com/photo/delicious-chocolate-donuts-with-dried-berry-sprinkles-7474263/), by [Valeria Boltneva](https://www.pexels.com/@valeriya/)
+    * [Why Nut](https://www.pexels.com/photo/glazed-doughnuts-near-chocolates-on-white-table-6941048/), by [Alena Shekhovtcova](https://www.pexels.com/@alena-shekhovtcova/)
+    * [Pink Zebra](https://www.pexels.com/photo/close-up-of-a-red-and-white-donut-7034529/), by [Tima Miroshnichenko]((https://www.pexels.com/@tima-miroshnichenko/))
+    * [Rainbow Wheel](https://www.pexels.com/photo/flatlay-shot-of-donut-7033650/), by [Tima Miroshnichenko](https://www.pexels.com/@tima-miroshnichenko/)
+    * [Exotic Strawberry](https://pixabay.com/photos/donuts-pastries-kringel-cakes-4633030/), by [Alexas_Fotos](https://pixabay.com/users/alexas_fotos-686414/)
+    * [Nut O' Bear](https://www.pexels.com/photo/person-holding-donut-179907/), by [THE 5TH](https://www.pexels.com/@the-5th-50003/)
+    * [Holy Grail](https://pixabay.com/photos/donut-pastry-sweet-sugar-box-5331966/), by [dohnalovajane](https://pixabay.com/users/dohnalovajane-11160395/)
+    * [Party Box](https://www.pexels.com/photo/white-and-pink-doughnut-on-white-box-4686958/), by [cottonbro studio](https://www.pexels.com/@cottonbro/)
+    * [Mango Masti](https://pixabay.com/photos/donut-doughnut-snack-dessert-3665638/), by [NoName_13](https://pixabay.com/users/noname_13-2364555/)
+    * [Donutella](https://pixabay.com/photos/donuts-donut-pastries-cute-643277/), by [congerdesign](https://pixabay.com/users/congerdesign-509903/)
+
+
+### Code
+
+* The website was inspired by the Love Running Walkthough project and some of the code from the walkthrough project was used and adapted.
+* [W3Schools](https://www.w3schools.com/) was referred to for syntax lookups, form code and phone number validation.
 
 ## Acknowledgements
-The site was developed as a part of a Full Stack Software Development Diploma Course at the [Code Institute](https://codeinstitute.net/) and is my Portfolio Project 1. I would like to thank my mentor [Mitko Bachvarov](https://www.linkedin.com/in/mitko-bachvarov-40b50776/), the Slack community, and all at the Code Institute for their help and support. This website has helped me feel so much confident when it comes to designing, building, testing and deploying a fully functioning website.
+The site was developed as a part of a Full Stack Software Development Diploma Course at the [Code Institute](https://codeinstitute.net/) and is my first Portfolio Project.
+
+I would like to thank -
+* my mentor [Mitko Bachvarov](https://www.linkedin.com/in/mitko-bachvarov-40b50776/) for his timely availability, feedback, guidance and support.
+* my cohort facilitator, Kay for pointing me in the right direction during the course of the project. Also providing me with resources to bridge the gaps in my learning.
+* My husband and son, without their support this could not have been possible. Thanks to their feedback.
+
+Building this website has been a great learning curve for me. From designing the wireframes to thinking about design choices and implementing the vision I had, I feel happy, confident and proud as a developer to have come this far.
 
 Deeksha Varma 2023.
 
