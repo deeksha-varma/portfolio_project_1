@@ -651,3 +651,11 @@ footer .main {
 	font-size: 0.9em;
 	color: black;
 }
+
+.footer-right i {
+	color: black;
+}
+
+.footer-right .contact-number {
+	font-size: 0.9em;
+}
