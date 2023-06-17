@@ -633,3 +633,15 @@ footer .main {
 .footer-left ul li a {
 	text-decoration: none;
 }
+
+.footer-left ul li a:hover i {
+	transform: scale(1.3);
+	color: whitesmoke;
+}
+
+.footer-left ul li a i {
+    font-size: 130%;
+    color: black;
+	margin-right: 1em;
+	transition: all 0.3s linear;
+}
