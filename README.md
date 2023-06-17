@@ -85,8 +85,7 @@ As a first time user, I want to ...
 1. ... easily navigate through the website and understand what are the treats being offered.
 2. ... find more information about the history of the business and their core values.
 3. ... expect a clear and intuitive navigation menu that allows me to explore the different categories of donuts.
-4. ... enticing visuals and explore the gallery page.
-5. ... find the contact information and location of the business.
+4. ... find the contact information and location of the business.
 
 ##### Returning Users
 As a returning user, I want to ...
@@ -127,7 +126,7 @@ In future expansion the site could include
 
 #### Wireframes
 
-The structure of the initial site will include five pages:
+The structure of the initial site will include four pages:
 
 1. **Home Page** with navigation features in a header and footer, a hero section containing the hero title/caption with a button allowing the user to explore the menu.
 
@@ -141,17 +140,13 @@ The structure of the initial site will include five pages:
 
 ![Menu](assets/images/Menu.png)
 
-4. **Gallery Page** with a bunch of images that provides a visual appeal to the website.
-
-![Gallery](assets/images/Gallery.png)
-
-5. **Contact Page** that contains 3 sections - a form that includes name, email, phone number, dropdown to select the reason for writing. There will be a field for a text message as well. The next section on the top right will be a map view of the business. Bottom right section will contain information on the address and operating hours of the business.
+4. **Contact Page** that contains 3 sections - a form that includes name, email, phone number, dropdown to select the reason for writing. There will be a field for a text message as well. The next section on the top right will be a map view of the business. Bottom right section will contain information on the address and operating hours of the business.
 
 ![Contact](assets/images/Contact.png)
 
-6. **Thank you Page** - a simple thank you page that displays thank you message to the user on contact form submission is also included.
+5. **Thank you Page** - a simple thank you page that displays thank you message to the user on contact form submission is also included.
 
-7. **404 Page** - a simple 404 Error page is also included.
+6. **404 Page** - a simple 404 Error page is also included.
 
 ### Skeleton
 How is it implemented. how will the user navigate it? Features.
