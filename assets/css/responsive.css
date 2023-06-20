@@ -371,3 +371,37 @@
         margin: 0;
     }
 }
+
+/* 404 Page */
+
+/* For tablet devices */
+
+@media screen and (max-width: 1024px) {
+    .error-container img {
+        margin-top: 90px;
+        width: 200px;
+	    height: 200px;
+    }
+}
+
+/* For mobile devices */
+
+@media screen and (max-width: 768px) {
+
+    .error-container img {
+        margin-top: 80px;
+        width: 200px;
+	    height: 200px;
+    }
+
+    .error-404 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .error-404-p {
+        padding: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
+}
