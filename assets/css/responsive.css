@@ -197,3 +197,23 @@
         font-size: 15px;
     }
 }
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+
+    .single-menu {
+        flex-direction: column;
+    }
+
+    .menu-column {
+        width: 90%;
+    }
+
+    .single-menu .menu-content h5 {
+        font-size: 14px;
+    }
+
+    .single-menu .menu-content p {
+        font-size: 14px;
+    }
+}
