@@ -256,6 +256,24 @@ nav .nav-menu a:hover {
 	margin: 0 50px;
 }
 
+.about .about-container:nth-child(odd) .about-image {
+	order: 1;
+}
+
+.about .about-container:nth-child(even) .about-image {
+	order: 2;
+}
+
+.about .about-container:nth-child(odd) .about-content {
+	order: 1;
+	padding-left: 30px;
+}
+
+.about .about-container:nth-child(even) .about-content {
+	order: 1;
+	padding-right: 30px;
+}
+
 .about-image {
 	flex: 1;
 	margin-right: 40px;
