@@ -647,13 +647,19 @@ nav .nav-menu a:hover {
 }
 
 .thankyou-text {
-	padding: 50px;
+	margin: 20px;
 }
 
 .thankyou-text p {
 	text-align: center;
 	font-size: 1.1em;
 	line-height: 30px;
+}
+
+.thankyou-container a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #222;
 }
 
 /* footer */
