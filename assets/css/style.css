@@ -418,7 +418,7 @@ nav .nav-menu a:hover {
 	background-color: #f2dfcf;
 	width: 100%;
 	height: auto;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .contactUs {

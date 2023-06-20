@@ -245,3 +245,45 @@
         font-size: 14px;
     }
 }
+
+/* Contact Page */
+
+/* For tablet devices */
+@media screen and (max-width: 1024px) {
+
+    .contact-header {
+        margin-top: 100px;
+    }
+
+    .contactUs {
+        padding: 10px;
+    }
+
+    .contact-container {
+       grid-template-columns: 1fr;
+       grid-template-rows: auto;
+       grid-template-areas:
+            "form"
+            "info"
+            "map";
+    }
+
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .inputBox {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .map {
+        min-height: 300px;
+        padding: 0;
+    }
+}
