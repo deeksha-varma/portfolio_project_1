@@ -177,6 +177,10 @@
 /* Menu Section */
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .menu-column {
+        margin: 5px auto;
+    }
+
     .single-menu {
         flex-direction: column;
     }
@@ -184,6 +188,10 @@
 
 /* For tablet devices */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .menu-column {
+        margin: 5px auto;
+    }
 
     .single-menu {
         flex-direction: column;
@@ -201,12 +209,17 @@
 /* For mobile devices */
 @media screen and (max-width: 767px) {
 
+    .section-title h2 {
+        padding-top: 90px;
+    }
+
     .single-menu {
         flex-direction: column;
     }
 
     .menu-column {
         width: 90%;
+        margin: 5px auto;
     }
 
     .single-menu .menu-content h5 {
