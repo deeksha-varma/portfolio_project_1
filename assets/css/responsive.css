@@ -342,3 +342,32 @@
         padding: 0;
     }
 }
+
+/* Thank you page */
+
+/* For tablet devices */
+
+@media screen and (max-width: 991px) {
+
+    .thankyou-title h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+}
+
+/* For mobile devices */
+
+@media screen and (max-width: 768px) {
+
+    .thankyou-title h1 {
+        font-size: 3em;
+        text-align: center;
+        margin: 90px auto;
+    }
+
+    .thankyou-text p {
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+    }
+}
