@@ -636,13 +636,14 @@ nav .nav-menu a:hover {
 	font-size: 4em;
 	color: #2c0a18;
 	letter-spacing: 2px;
-	margin: 50px auto;
+	margin: 140px auto;
 }
 
 .tick-mark {
 	width: 300px;
 	max-width: 100%;
-	height: auto;
+	height: 100%;
+	margin-top: -90px;
 }
 
 .thankyou-text {
