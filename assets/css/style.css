@@ -291,10 +291,6 @@ nav .nav-menu a:hover {
 	transform: scale(1);
 }
 
-.about .about-container .about-image:hover img {
-	transform: scale(1.05);
-}
-
 .about .about-container .about-content {
 	flex: 1;
 	align-self: center;
