@@ -361,13 +361,21 @@
     .thankyou-title h1 {
         font-size: 3em;
         text-align: center;
-        margin: 90px auto;
+        margin: 50px auto;
+    }
+
+    .tick-mark {
+        margin-top: -50px;
     }
 
     .thankyou-text p {
         font-size: 1em;
         padding: 0;
         margin: 0;
+    }
+
+    .btn-home {
+        margin: 10px;
     }
 }
 
