@@ -27,7 +27,6 @@
     1. [HTML](#html-validation)
     2. [CSS](#css-validation)
     3. [Accessibility & Performance](#accessibility--performance)
-    4. [Browser Compatability](#browser-compatability)
 6. [Bugs](#bugs-fixes-and-outstanding-issues)
 7. [Deployment & Development](#deployment--development)
 8. [Credits](#credits)
@@ -149,7 +148,128 @@ The structure of the initial site will include four pages:
 6. **404 Page** - a simple 404 Error page is also included.
 
 ### Skeleton
-How is it implemented. how will the user navigate it? Features.
+
+As described in the previous section with the aid of wireframes, the website includes six pages, which all have a consistent header and footer. The home page includes a call to action button, which links to the menu page.
+
+#### Header
+<details>
+<summary>Screenshot of header on desktop</summary>
+<img src="documentation/header.png" width="500">
+</details>
+<details>
+<summary>Screenshot of header on mobile</summary>
+<img src="documentation/mobile_header.png">
+</details>
+
+- Featured on all four main pages (also the Thank you page and 404 page).
+- Includes the company name/logo and a menu with links to the Home page, About page, Menu page, Contact page.
+- The header is fully responsive and changes to a hamburger menu on smaller screens.
+- If a user hovers over a menu option in desktop mode an animated bar shows them which option they are choosing.
+
+#### Footer
+<details>
+<summary>Screenshot of Footer on Desktop</summary>
+<img src="documentation/footer.png" width="500">
+</details>
+<details>
+<summary>Screenshot of footer on mobile</summary>
+<img src="documentation/mobile_footer.png">
+</details>
+
+- Featured on all four main pages (also the Thank you page and 404 page).
+- Includes links to the social media pages which the company maintains: Facebook,   Instragram, and Twitter.
+- All links open in a new window.
+- Includes Copyrights Reserved text.
+- Includes Contact Number of the business.
+- The footer is fully responsive and changes to fill three lines on smaller screens.
+
+#### Home Page
+<details>
+<summary>Screenshot of Home page on Desktop</summary>
+<img src="documentation/home.png" width="500">
+</details>
+<details>
+<summary>Screenshot of Home page on mobile</summary>
+<img src="documentation/mobile_home.png">
+</details>
+
+- Includes a hero image.
+- A call to action button features on center of the hero image. It links to the menu page.
+
+#### About Page
+<details>
+<summary>Screenshot of About page on Desktop</summary>
+<img src="documentation/about.png" width="500">
+</details>
+<details>
+<summary>Screenshot of About page on mobile</summary>
+<img src="documentation/mobile_about.png">
+</details>
+
+- Features two images with information on the history of the business and their mission.
+- The images have hover effect only in the Desktop view.
+
+#### Menu Page
+<details>
+<summary>Screenshot of Menu page on Desktop</summary>
+<img src="documentation/menu.png" width="500">
+</details>
+<details>
+<summary>Screenshot of Menu page on mobile</summary>
+<img src="documentation/mobile_menu.png">
+</details>
+
+- Features images with small description and price of each of the menu item in a column format.
+- The images have hover effect on Desktop and tablet devices.
+
+#### Contact Page
+<details>
+<summary>Screenshot of Contact page on Desktop</summary>
+<img src="documentation/contact.png" width="500">
+</details>
+<details>
+<summary>Screenshot of Contact page on mobile</summary>
+<img src="documentation/mobile_contact.png">
+</details>
+
+- Features a contact form that a customer can submit to express concerns/provide feedback/request more information.
+- Features an address info card with information about the business such as Address, Email ID of the business, Contact number, Owner info, Working hours.
+- The address info card also features social media icons that link to the social media pages that the business uses such as Facebook, Instagram and Twitter. The icons have a hover effect.
+- The map view of the business.
+
+#### Thank you Page
+<details>
+<summary>Screenshot of Thank you page on Desktop</summary>
+<img src="documentation/thank_you.png" width="500">
+</details>
+<details>
+<summary>Screenshot of Thank you page on mobile</summary>
+<img src="documentation/mobile_thank_you.png">
+</details>
+
+- The thank you page (or confirmation page) is used to thank users and confirm to them what they did was successful.
+- This page is to notify users who submit the contact form that their action was successful and their data has been collected.
+- Features a green tick mark icon to indicate success.
+- Includes a button to allow the user to navigate back to home page.
+- Includes the header and footer.
+
+#### 404 Page
+<details>
+<summary>Screenshot of 404 page on Desktop</summary>
+<img src="documentation/404.png" width="500">
+</details>
+<details>
+<summary>Screenshot of 404 page on mobile</summary>
+<img src="documentation/mobile_404.png">
+</details>
+
+- The 404 error page is used to inform the user that they have arrived at the wrong address and provides a button to the user to navigate back to home page.
+- Features a gif that represents 404 error.
+- Includes the header and footer.
+
+#### Future Additions
+
+Features that could be implemented in the future is a gallery page, newsletters, customer testimonials in the about page, allergen information on the menu.
 
 ### Surface
 
@@ -265,6 +385,9 @@ The method from cloning a project from GitHub is below:
 
 * The website was inspired by the Love Running Walkthough project and some of the code from the walkthrough project was used and adapted.
 * [W3Schools](https://www.w3schools.com/) was referred to for syntax lookups, form code and phone number validation.
+* Responsive navigation for this project was implemented using Kevin Powell's video -
+    [Create a responsive navigation nav with no JS](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell)
+* CSS flexbox implemented using [this](https://www.youtube.com/watch?v=tXIhdp5R7sc&ab_channel=freeCodeCamp.org) video from FreeCodeCamp.
 
 ## Acknowledgements
 The site was developed as a part of a Full Stack Software Development Diploma Course at the [Code Institute](https://codeinstitute.net/) and is my first Portfolio Project.
