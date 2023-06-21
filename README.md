@@ -1,6 +1,10 @@
 # Oh Nuts! Donuts
 (Developer: Deeksha Varma)
 
+![Mockup image](documentation/responsive_preview.png)
+
+You can view the live site here - <a href="https://deeksha-varma.github.io/portfolio_project_1/" target="_blank" rel="noopener">Oh Nuts! Donuts - Get Dunked On</a>
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Goals](#project-goals)
