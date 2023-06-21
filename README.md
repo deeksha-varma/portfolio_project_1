@@ -317,19 +317,40 @@ The highlight on the homepage is the hero image. A neutral base, such as a light
 
 ## Testing and Validation
 
+### Code Validation
+
+* The website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). 2 minor errors were found on the pages - 404.html and thankyou.html. These were fixed immediately and documented below.
+
 ### HTML Validation
-- HTML
-  - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+![HTML Validation](documentation/html_validation_image.png)
 
 ### CSS Validation
 - CSS
   - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Accessibility & Performance
+## Accessibility & Performance
+
+### Accessibility Testing
+
+The website was put through [a11y](https://color.a11y.com/Contrast/) to further test the contrast and found no issues. <br /><br />
+
+![a11y Test](documentation/a11y_contrast_test_image.png)
+
+### Lighthouse Testing
 
 ### Browser Compatability
 
 ## Bugs, Fixes and Outstanding issues
+
+### HTML Validation
+
+* After putting the website through [HTML Validation](https://validator.w3.org/), I was presented with the following common errors for the pages (404.html & thankyou.html):<br /><br />
+
+    ![HTML Validation Error](documentation/html_validation_errors.png)
+
+* The backslash was replaced with a forward slash on the href attribute. The button tag was not being used so the element was removed and the button class was applied directly to the anchor element, the validator then returned with no errors.<br /><br />
+
+    ![HTML Validation Error Solved](documentation/html_validation_image.png)
 
 ## Deployment & Development
 
