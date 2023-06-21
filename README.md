@@ -129,19 +129,19 @@ The structure of the initial site will include four pages:
 
 1. **Home Page** with navigation features in a header and footer, a hero section containing the hero title/caption with a button allowing the user to explore the menu.
 
-![Home](assets/images/Home.png)
+![Home](assets/images/home.png)
 
 2. **About Page** giving a brief history of "where it all started" and the core mission of the business. This page will include the same header and footer as the main page.
 
-![About](assets/images/About.png)
+![About](assets/images/about.png)
 
 3. **Menu Page** providing a beautiful column layout of the different kinds of donuts served. Each item on the catalogue is depicted with a donut image and their corresponding names and descriptions. The images provide interactivity on hover.
 
-![Menu](assets/images/Menu.png)
+![Menu](assets/images/menu.png)
 
 4. **Contact Page** that contains 3 sections - a form that includes name, email, phone number, dropdown to select the reason for writing. There will be a field for a text message as well. The next section on the top right will be a map view of the business. Bottom right section will contain information on the address and operating hours of the business.
 
-![Contact](assets/images/Contact.png)
+![Contact](assets/images/contact.png)
 
 5. **Thank you Page** - a simple thank you page that displays thank you message to the user on contact form submission is also included.
 
@@ -284,7 +284,7 @@ A combination of playful and modern fonts that add personality to the design whi
 The color scheme chosen needs to evoke a sense of playfulness, warmth, and deliciousness. With this idea in mind, a combination of bright and vibrant colors were used to capture attention and reflect the fun and joyful nature of donut indulgence.
 The highlight on the homepage is the hero image. A neutral base, such as a light cream is paired with a pop of hot pink on the other pages. This approach allows the colorful elements, like illustrations or images, to stand out while maintaining an overall clean and modern look.
 
-![Color Scheme](documentation/colorscheme.png)
+![Color Scheme](documentation/color_scheme.png)
 
 #### Font
 
