@@ -338,6 +338,11 @@ The website was put through [a11y](https://color.a11y.com/Contrast/) to further 
 
 ### Lighthouse Testing
 
+### Responsiveness Testing
+* The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).<br /><br />
+
+![Responsive Test Sheet](documentation/responsive_test_image.png)
+
 ## Manual Testing
 
 ### Browser Compatability
