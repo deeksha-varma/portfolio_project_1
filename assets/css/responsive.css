@@ -388,6 +388,33 @@
     }
 }
 
+/* For small screen sizes 360 px and down */
+
+@media screen and (max-width: 360px) {
+
+    .thankyou-title h1 {
+        font-size: 2em;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .tick-mark {
+        width: 200px;
+    }
+
+    .thankyou-text p {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .btn-home {
+        margin: 0;
+        padding: 5px;
+    }
+}
+
 /* 404 Page */
 
 /* For tablet devices */
@@ -420,6 +447,12 @@
         text-align: center;
         font-size: 1em;
     }
+}
+
+/* For small screen sizes 360 px and down */
+
+@media screen and (max-width: 360px) {
+
 }
 
 /* Footer */

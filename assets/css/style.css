@@ -773,6 +773,7 @@ footer .main {
     min-height: 30px;
     min-width: 120px;
 	margin: 30px;
+	text-align: center;
 }
 
 .btn-home:active {
