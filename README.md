@@ -338,10 +338,50 @@ The website was put through [a11y](https://color.a11y.com/Contrast/) to further 
 
 ### Lighthouse Testing
 
+The website was assessed for the following parameters using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) Lighthouse Testing:
+
+* Performance - How the page performs whilst loading.
+* Accessibility - Is the site accessible for all users and how can it be improved.
+* Best Practices - Site conforms to industry best practices.
+* SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.<br /><br />
+
+All pages scored high on performance, best practices and SEO.
+The accessibility score for Contact page scored a little less and necessary code changes were made and is documented below.
+
+<details>
+<summary>Home</summary>
+<img src="documentation/lighthouse_desktop_index.png" width="700">
+</details>
+
+<details>
+<summary>About</summary>
+<img src="documentation/lighthouse_desktop_about.png" width="700">
+</details>
+
+<details>
+<summary>Menu</summary>
+<img src="documentation/lighthouse_desktop_menu.png" width="700">
+</details>
+
+<details>
+<summary>Contact</summary>
+<img src="documentation/lighthouse_desktop_contact.png" width="700">
+</details>
+
+<details>
+<summary>Thank you</summary>
+<img src="documentation/lighthouse_desktop_thankyou.png" width="700">
+</details>
+
+<details>
+<summary>404</summary>
+<img src="documentation/lighthouse_desktop_404.png" width="700">
+</details>
+
 ### Responsiveness Testing
 * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).<br /><br />
 
-![Responsive Test Sheet](documentation/responsive_test_image.png)
+    ![Responsive Test Sheet](documentation/responsive_test_image.png)
 
 ## Manual Testing
 
@@ -368,6 +408,19 @@ The website was put through [a11y](https://color.a11y.com/Contrast/) to further 
 * The code was fixed with the correct values for the grid-template-columns and the validator then returned with no errors.<br /><br />
 
     ![CSS Validation Error Solved](documentation/css_validation_image.png)
+
+### Lighthouse Testing
+
+After running the website through [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) Lighthouse Testing, I was presented with the following accessibility score for Contact page:<br /><br />
+
+<details>
+<summary>Contact</summary>
+<img src="documentation/lighthouse_desktop_contact_1.png" width="700">
+</details>
+
+* The code was fixed to include a title attribute on the iframe element and background color for the submit button of the contact form was changed to introduce more contrast ratio. After implementing these changes, the score then improved.
+
+    ![Lighthouse Score Result](documentation/lighthouse_desktop_contact.png)
 
 ## Deployment & Development
 
