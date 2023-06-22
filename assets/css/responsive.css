@@ -452,7 +452,24 @@
 /* For small screen sizes 360 px and down */
 
 @media screen and (max-width: 360px) {
+    .error-container img {
+        margin-top: 50px;
+        width: 120px;
+	    height: 120px;
+    }
 
+    .error-404 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    .error-404-p {
+        font-size: 0.9em;
+    }
+
+    .btn-home {
+        padding: 8px;
+    }
 }
 
 /* Footer */
