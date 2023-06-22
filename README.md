@@ -383,6 +383,12 @@ The accessibility score for Contact page scored a little less and necessary code
 
     ![Responsive Test Sheet](documentation/responsive_test_image.png)
 
+### Browser Compatability
+
+The websites compatability was tested on the following browsers and no issues were found:
+* Google Chrome
+* Mozilla Firefox
+
 ## Manual Testing
 * In addition to the above tests, I have performed manual testing using the following use cases tabulated below to make sure everything works as intended.
 
