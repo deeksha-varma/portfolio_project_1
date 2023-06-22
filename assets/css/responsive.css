@@ -26,7 +26,7 @@
 
 }
 
-/* For medium screen sizes from 800px wide and down */
+/* For screen sizes from 800px wide and up */
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
@@ -34,7 +34,7 @@
 
     header {
         display: grid;
-        grid-template-columns: fr 0fr minmax(600px, 2fr);
+        grid-template-columns: 1fr auto minmax(100px, 2fr);
     }
 
     .logo img{
@@ -42,7 +42,16 @@
     }
 
     nav {
-        all: unset;
+        /* all: unset; /* this causes issues with Edge, since it's unsupported */
+        /* the following lines add Edge support */
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1,1);
+        background: none;
+        top: initial;
+        left: initial;
+        /* end Edge support stuff */
         grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
