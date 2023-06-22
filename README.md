@@ -319,14 +319,14 @@ The highlight on the homepage is the hero image. A neutral base, such as a light
 
 ### Code Validation
 
-* The website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). 2 minor errors were found on the pages - 404.html and thankyou.html. These were fixed immediately and documented below.
+* The website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). 2 minor errors were found on the pages - 404.html and thankyou.html. 1 error was found on the responsive.css page while running the css validator. These were fixed immediately and documented below.
 
 ### HTML Validation
 ![HTML Validation](documentation/html_validation_image.png)
 
 ### CSS Validation
-- CSS
-  - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+![CSS Validation](documentation/css_validation_image.png)
+
 
 ## Accessibility & Performance
 
@@ -337,6 +337,8 @@ The website was put through [a11y](https://color.a11y.com/Contrast/) to further 
 ![a11y Test](documentation/a11y_contrast_test_image.png)
 
 ### Lighthouse Testing
+
+## Manual Testing
 
 ### Browser Compatability
 
@@ -351,6 +353,16 @@ The website was put through [a11y](https://color.a11y.com/Contrast/) to further 
 * The backslash was replaced with a forward slash on the href attribute. The button tag was not being used so the element was removed and the button class was applied directly to the anchor element, the validator then returned with no errors.<br /><br />
 
     ![HTML Validation Error Solved](documentation/html_validation_image.png)
+
+### CSS Validation
+
+* After running the website through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), I was presented with the following error:<br /><br />
+
+    ![CSS Validation Error](documentation/css_validation_error.png)
+
+* The code was fixed with the correct values for the grid-template-columns and the validator then returned with no errors.<br /><br />
+
+    ![CSS Validation Error Solved](documentation/css_validation_image.png)
 
 ## Deployment & Development
 
