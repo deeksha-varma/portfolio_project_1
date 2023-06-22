@@ -384,8 +384,100 @@ The accessibility score for Contact page scored a little less and necessary code
     ![Responsive Test Sheet](documentation/responsive_test_image.png)
 
 ## Manual Testing
+* In addition to the above tests, I have performed manual testing using the following use cases tabulated below to make sure everything works as intended.
 
-### Browser Compatability
+    1. Navigation Menu/Header
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | Navigation Menu | The donut icon on logo is clickable | Redirects user to home page | Works as expected |
+        | Navigation Menu | The nav links when clicked redirect user to the appropriate page | User lands on the appropriate page | Works as expected |
+        | Navigation Menu | Navigate across the nav links | The nav links have the correct hover effect and correct color | Works as expected |
+        | Navigation Menu | The active nav link is highlighted to the user | The user should be able to see a black underline on the current active nav link. | Works as expected |
+        | Navigation Menu | Inspect the page to see if navigation menu is responsive and transitions to a hamburger menu at 850px | The user should be able to see the navigation links transition to a hamburger menu on screens smaller than 850px. | Works as expected |
+        | Navigation Menu | Click on the hamburger menu | The user is able to view the navigation menu as a dropdown | Works as expected |
+        | Navigation Menu | Verify the position of the header | The header stays on top of the page at all times whilst the user scrolls | Works as expected |
+
+    2. Home page/Landing page
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | Home page | View the hero image and analyse its position and quality | The hero image fits the page and does not appear pixelated or stretched  | Works as expected |
+        | Home page | View the hero text and its position on screens 952px wide and up | The hero text indents to the right side on the hero image on screens of width 952px and up. | Works as expected |
+        | Home page | View the second line of the hero text  | The hero text appears in 2 separate lines and the second line uses the same font as the logo text | Works as expected |
+        | Home page | View the hero text and its position on screens 952px wide and down  | The hero text appears central to the hero image | Works as expected |
+        | Home page | View the hero button  | The hero button appears central to the hero text | Works as expected |
+        | Home page | Hover on the hero button  | The hero button has the correct hover effect and color and when clicked opens the menu page in a new tab | Works as expected |
+
+    3. About page
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | About page | View the About page title/heading | The About page has the title 'About Us' with a purple solid underline and is aligned to the top center of the page below the header. | Works as expected |
+        | About page | View the two images | The About page has two images that appear alongside the text in a diagonal fashion | Works as expected |
+        | About page | Hover over the images | The images have a zoom effect on hover | Works as expected |
+        | About page | View the first text section on the page | The first block of text is located to the left of the first image in a row and has the subtitle 'Sprinkling Happiness'  | Works as expected |
+        | About page | View the last line of the first text section on the page | The last line of the first paragraph is italicised  | Works as expected |
+        | About page | Scroll down to the last section of the page | The paragraph is titled 'Our Mission' and highlights important information as bold, italicized text.  | Works as expected |
+        | About page | View the ipad version of the page (less than 1024px wide) | The page transitions to a column format and has the text followed by the images and the mission text. The images do not the hover effect  | Works as expected
+        | About page | View the mobile version of the page (less than 768px wide) | The page transitions to a column format and has the text followed by the images and the mission text. The images do not the hover effect  | Works as expected
+
+    3. Menu page
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | Menu page | View the Menu page title/heading | The Menu page has the title 'Our Menu' with a purple solid underline and is aligned to the top center of the page below the header. | Works as expected |
+        | Menu page | View the menu page images | Each item on the menu has a representing image enclosed in a circular border. | Works as expected |
+        | Menu page | Hover over the images | The images have a zoom effect on hover only in the Desktop and iPad version. | Works as expected |
+        | Menu page | View the quality of the images | The images should not appear pixelated to stretched and fit to the center. | Works as expected |
+        | Menu page | View the menu page layout | The menu is laid out in a tabular column layout. There are 3 columns to the menu. Each column has 4 menu items. A total of 12 items on the menu | Works as expected |
+        | Menu page | View the menu page layout in Desktop | The desktop version shows the three column layout with the donut title and pricing appearing on the same line with dashed underline effect. The item description appears to the right center of the image | Works as expected |
+        | Menu page | View the menu page layout on ipad | The ipad version shows the three column layout with the text indenting below the image | Works as expected |
+        | Menu page | View the menu page layout on mobile | The mobile version shows a single column layout with each item appearing one below the other | Works as expected |
+
+    4. Contact page
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | Contact page | View the Contact page title/heading | The Contact page has the title 'Contact & Inquiry' with a purple solid underline and is aligned to the top center of the page below the header. | Works as expected |
+        | Contact page | View the Contact page subheading | The Contact page has the subheading 'We'll get back to you shortly' aligned below the heading. | Works as expected |
+        | Contact page | View the sections on the Contact page | The Contact page has three sections - contact form, address card, google map view. | Works as expected |
+        | Contact page | Locate the contact form | Find and fill out contact form. | Works as expected |
+        | Contact page | Locate the address info card | Find information on the business and their social media links. | Works as expected |
+        | Contact page | Locate the map view of the business | Find the google map location of the business. | Works as expected |
+        | Contact page | Hover over the social media icons on the address card | The social media icons have a hover colour change effect. | Works as expected |
+        | Contact page | View the layout on Desktop | The desktop view shows the different sections in a grid layout. | Works as expected |
+        | Contact page | View the layout on iPad | The iPad view shows the different sections transitioning into a column layout in the order - form, address card, map. | Works as expected |
+        | Contact page | View the layout on mobile devices | The mobile view shows the different sections transitioning into a column layout in the order - form, address card, map. | Works as expected |
+
+    5. Thank you page
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | Thank you page | View the Thank you page title/heading | The Thank you page has the title 'THANK YOU!' in the correct color and is aligned to the top center of the page below the header. | Works as expected |
+        | Thank you page | Locate the thank you icon | The Thank you page has the green tick mark icon aligned central to the page title. | Works as expected |
+        | Thank you page | Locate the thank you text | The Thank you page has the thank you text aligned central to the icon. | Works as expected |
+        | Thank you page | Locate the button | The Thank you page has a call to action button that allows the user to redirect back to home page. | Works as expected |
+        | Thank you page | Test responsiveness of the page | The Thank you page elements have a column layout on all devices. | Works as expected |
+
+    5. 404 Error page
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | 404 page | View the 404 page title/heading | The 404 page has the title in the correct color and is aligned to the top center of the page below the error icon. | Works as expected |
+        | 404 page | Locate the 404 page error gif | The 404 page has the 404 gif to represent the error code 404. | Works as expected |
+        | 404 page | Locate the 404 page error info | The 404 page provides the user with appropriate info text. | Works as expected |
+        | 404 page | Locate the home button | The 404 page has a call to action button that allows the user to redirect back to home page. | Works as expected |
+        | 404 page | Test responsiveness of the page | The 404 page elements have a column layout on all devices. | Works as expected |
+
+    6. Footer
+
+        | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+        |-------------|------------|---------------------|-------------------|
+        | Footer | Click on the social media links | The links should open in a new tab. | Works as expected |
+        | Footer | Locate the copyright text | The footer has the copyright text in the center. | Works as expected |
+        | Footer | Locate the contact number of the business | The footer has the contact number indented towards the right of the footer. | Works as expected |
+        | Footer | Test responsiveness of the footer | The footer resizes itself and spreads across 3 lines. | Works as expected |
 
 ## Bugs, Fixes and Outstanding issues
 
