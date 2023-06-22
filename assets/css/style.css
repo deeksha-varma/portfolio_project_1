@@ -542,7 +542,7 @@ nav .nav-menu a:hover {
 }
 
 .inputBox input[type="submit"] {
-	background:  rgb(219, 104, 104);
+	background: #5f2d07;
 	color: white;
 	border: none;
 	font-size: 1.1em;
