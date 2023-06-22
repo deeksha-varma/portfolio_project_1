@@ -520,6 +520,14 @@ After running the website through [Chrome Dev Tools](https://developer.chrome.co
 
     ![Lighthouse Score Result](documentation/lighthouse_desktop_contact.png)
 
+### Outstanding Issues
+
+* When inspecting the website with Google Chrome DevTools and opening console, the website showed the following error:
+
+    ![Outstanding Issue Error](documentation/outstanding_issue_error.png)
+
+I found through StackOverflow that this issue is a cross-origin request issue and it is caused by various Chrome Extensions. After testing it in the incognito mode, the error didn't show up anymore.
+
 ## Deployment & Development
 
 ### **To deploy the project**
