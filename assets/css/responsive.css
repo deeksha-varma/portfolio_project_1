@@ -26,8 +26,8 @@
 
 }
 
-/* For screen sizes from 800px wide and up */
-@media screen and (min-width: 800px) {
+/* For screen sizes from 850px wide and up */
+@media screen and (min-width: 850px) {
     .nav-toggle-label {
         display: none;
     }
