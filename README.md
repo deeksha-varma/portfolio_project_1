@@ -556,11 +556,16 @@ The method from cloning a project from GitHub is below:
 
 ## Credits
 ### Content
-* The font came from [Google Fonts](https://fonts.google.com/)
-* The icons came from [Font Awesome](https://fontawesome.com/)
-* The markdown syntax used to write README doc were referenced from [Git Hub Doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* The font came from [Google Fonts](https://fonts.google.com/).
+* The icons came from [Font Awesome](https://fontawesome.com/).
+* The markdown syntax used to write README doc were referenced from [Git Hub Doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 * The donut names on the menu page were based out of creativity and for some Google was used as reference.
-* This README file was adapted from the projects - [Art School](https://github.com/URiem/art-school) and [Reflection](https://github.com/MikeR94/CI-Project-Portfolio-1)
+* This README file was adapted from the projects - [Art School](https://github.com/URiem/art-school) and [Reflection](https://github.com/MikeR94/CI-Project-Portfolio-1).
+* The text content for the About Page - history and mission were generated using ChatGPT.
+* The inspiration for the menu page was taken from [WIX](https://www.wix.com/website-template/view/html/2993).
+* The inspiration for the about page layout/design was taken from the following Code Institute [project](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/about.html).
+* The inspiration for the contact page layout/design was taken from the following Code Institute [project](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/contact.html).
+* The website landing page inspiration was taken from [Dribble](https://dribbble.com/shots/8926046-Donut-Landing-Page-UI/attachments/1087084?mode=media).
 
 
 ### Media
@@ -580,6 +585,8 @@ The method from cloning a project from GitHub is below:
     * [Party Box](https://www.pexels.com/photo/white-and-pink-doughnut-on-white-box-4686958/), by [cottonbro studio](https://www.pexels.com/@cottonbro/)
     * [Mango Masti](https://pixabay.com/photos/donut-doughnut-snack-dessert-3665638/), by [NoName_13](https://pixabay.com/users/noname_13-2364555/)
     * [Donutella](https://pixabay.com/photos/donuts-donut-pastries-cute-643277/), by [congerdesign](https://pixabay.com/users/congerdesign-509903/)
+* 404 error gif was taken from this [Google Source](https://help.trycaviar.com/diners/s/login/)
+* Thank you page tick mark icon was taken from [Google Source](https://www.vecteezy.com/free-png/green-check-mark)
 
 
 ### Code
@@ -589,6 +596,11 @@ The method from cloning a project from GitHub is below:
 * Responsive navigation for this project was implemented using Kevin Powell's video -
     [Create a responsive navigation nav with no JS](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell)
 * CSS flexbox implemented using [this](https://www.youtube.com/watch?v=tXIhdp5R7sc&ab_channel=freeCodeCamp.org) video from FreeCodeCamp.
+* The document [Setting Up a Custom 404 Page with GitHub Pages](https://draft.dev/learn/github-pages-404) was referred to for creating 404 page in my website.
+* The following resources were used to implement some of the features:
+    * [Restaurant Menu using HTML, CSS & Flexbox](https://www.youtube.com/watch?v=P3NL6tiIqrM&ab_channel=CodewithAbdullahNahian)
+    * [Responsive Contact page](https://www.youtube.com/watch?v=KZgMh-CDpa4&t=236s&ab_channel=OnlineTutorials)
+    * [Wrap Text Around Image](https://www.youtube.com/watch?v=lgX38fNbxmw&ab_channel=Codehal)
 
 ## Acknowledgements
 The site was developed as a part of a Full Stack Software Development Diploma Course at the [Code Institute](https://codeinstitute.net/) and is my first Portfolio Project.
